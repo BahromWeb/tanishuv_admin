@@ -1,5 +1,6 @@
 import React from 'react'
 import './login.css'
+
 export default function Login() {
   return (
     <div className='login_box'>
@@ -16,7 +17,7 @@ export default function Login() {
         <label htmlFor="password">Password</label>
         <input type="password" placeholder="Password" id="password" />
 
-        <button>Log In</button>
+        <button type="submit">Log In</button>
       </form>
     </div>
   )
